@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    tools:context=".login">
+
+    <ImageView
+        android:id="@+id/hello_there_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        app:srcCompat="@drawable/hello_there" />
+
+    <ImageView
+        android:id="@+id/login_group_img"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/login_phone_group" />
+
+    <ImageView
+        android:id="@+id/verify_group"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/verify_group" />
+
+    <EditText
+        android:id="@+id/login_otp_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="2"
+        android:hint="●"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#0C0CFE"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/verify_group"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.479" />
+
+    <EditText
+        android:id="@+id/login_otp_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="2"
+        android:hint="●"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#0C0CFE"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/verify_group"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.479" />
+
+    <EditText
+        android:id="@+id/login_otp_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="2"
+        android:hint="●"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#0C0CFE"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/verify_group"
+        app:layout_constraintHorizontal_bias="0.418"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.479" />
+
+    <EditText
+        android:id="@+id/login_otp_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="2"
+        android:hint="●"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#0C0CFE"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/verify_group"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.479" />
+
+    <EditText
+        android:id="@+id/login_otp_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="2"
+        android:hint="●"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#0C0CFE"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/verify_group"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.479" />
+
+    <EditText
+        android:id="@+id/login_otp_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="2"
+        android:hint="●"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#0C0CFE"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/verify_group"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="invisible"
+        app:layout_constraintVertical_bias="0.479" />
+
+    <Button
+        android:id="@+id/send_otp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:textSize="46dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_otp_3"
+        app:layout_constraintVertical_bias="0.418" />
+
+    <Button
+        android:id="@+id/verify"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:textSize="46dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/send_otp"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="41dp"
+        android:layout_height="29dp"
+        android:background="#00000000"
+        android:src="@drawable/tick"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.478" />
+
+    <TextView
+        android:id="@+id/login_email_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/verify_group"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/verify_group"
+        android:visibility="invisible"
+        app:layout_constraintVertical_bias="0.619" />
+
+    <Button
+        android:id="@+id/re_enter_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253" />
+
+    <EditText
+        android:id="@+id/phone_edttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:ems="10"
+        android:fontFamily="@font/roboto_medium"
+        android:inputType="phone"
+        android:textAlignment="textStart"
+        android:textColor="@color/darkBlue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/verify_group"
+        app:layout_constraintEnd_toEndOf="@+id/verify_group"
+        app:layout_constraintHorizontal_bias="0.690"
+        app:layout_constraintStart_toStartOf="@+id/verify_group"
+        app:layout_constraintTop_toTopOf="@+id/verify_group"
+        app:layout_constraintVertical_bias="0.471" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

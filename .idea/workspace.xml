@@ -1,0 +1,1726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <library-updates>
+      <library-update>
+        <group-id>androidx.test.espresso</group-id>
+        <name>espresso-core</name>
+        <version>3.3.0-alpha02</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.test</group-id>
+        <name>runner</name>
+        <version>1.3.0-alpha02</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.constraintlayout</group-id>
+        <name>constraintlayout</name>
+        <version>2.0.0-beta2</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>junit</group-id>
+        <name>junit</name>
+        <version>4.13-beta-3</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.appcompat</group-id>
+        <name>appcompat</name>
+        <version>1.1.0-rc01</version>
+        <repository>Google</repository>
+      </library-update>
+    </library-updates>
+    <last-search-timestamp>1567149812904</last-search-timestamp>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="65387302-f297-4cc6-9235-384ba12faa3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/CustomerHomeActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/CustomerHomeFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/HelpFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/KartFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/setlocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_customer_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_setlocation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_customer_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_help.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_kart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/render.experimental.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/g/wishkart01/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/g/wishkart01/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/CustomSwipeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/CustomSwipeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/intro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/otp_verification.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/otp_verification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/phone_for_otp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/phone_for_otp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/signup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/start_as.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/start_as.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/test_profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/test_profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_left.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_left.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_right.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_left.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_left.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_right.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/eye.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/eye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/intro_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/intro_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/intro_back_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/intro_back_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/intro_daily.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/intro_daily.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/intro_delivery.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/intro_delivery.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/intro_services.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/intro_services.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/intro_set_loc.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/intro_set_loc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/intro_welcome.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/intro_welcome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/lets_go.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/lets_go.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/login_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/login_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/login_email_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/login_email_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/login_fb_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/login_fb_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/login_main_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/login_main_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/login_name_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/login_name_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/login_pwd_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/login_pwd_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/login_singup_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/login_singup_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/otp_verification.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/otp_verification.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/path_3401.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/path_3401.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/phone_enter.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/phone_enter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/phone_for_otp_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/phone_for_otp_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/progress_circle_start.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/progress_circle_start.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/rectangle_321.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/rectangle_321.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/rectangle_324.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/rectangle_324.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/set_loc_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/set_loc_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/signin_google_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/signin_google_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/signup_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/signup_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/signup_email_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/signup_email_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/signup_name_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/signup_name_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/signup_pwd_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/signup_pwd_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/six_digit_otp_str.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/six_digit_otp_str.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/skip_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/skip_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/start_as.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/start_as.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/verify.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/verify.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/verify_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/verify_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/verify_rect.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/verify_rect.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/eye.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/eye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/intro_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/intro_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/intro_back_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/intro_back_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/intro_daily.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/intro_daily.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/intro_delivery.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/intro_delivery.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/intro_services.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/intro_services.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/intro_set_loc.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/intro_set_loc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/intro_welcome.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/intro_welcome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/lets_go.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/lets_go.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/login_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/login_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/login_email_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/login_email_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/login_fb_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/login_fb_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/login_main_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/login_main_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/login_name_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/login_name_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/login_pwd_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/login_pwd_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/login_singup_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/login_singup_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/otp_verification.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/otp_verification.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/path_3401.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/path_3401.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/phone_enter.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/phone_enter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/phone_for_otp_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/phone_for_otp_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/progress_circle_start.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/progress_circle_start.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/rectangle_321.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/rectangle_321.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/rectangle_324.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/rectangle_324.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/set_loc_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/set_loc_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/signin_google_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/signin_google_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/signup_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/signup_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/signup_email_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/signup_email_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/signup_name_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/signup_name_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/signup_pwd_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/signup_pwd_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/six_digit_otp_str.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/six_digit_otp_str.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/skip_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/skip_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/start_as.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/start_as.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/verify.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/verify.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/verify_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/verify_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/verify_rect.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/verify_rect.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/eye.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/eye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/intro_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/intro_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/intro_back_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/intro_back_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/intro_daily.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/intro_daily.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/intro_delivery.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/intro_delivery.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/intro_services.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/intro_services.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/intro_set_loc.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/intro_set_loc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/intro_welcome.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/intro_welcome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/lets_go.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/lets_go.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/login_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/login_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/login_email_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/login_email_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/login_fb_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/login_fb_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/login_main_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/login_main_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/login_name_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/login_name_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/login_pwd_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/login_pwd_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/login_singup_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/login_singup_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/otp_verification.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/otp_verification.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/path_3401.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/path_3401.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/phone_enter.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/phone_enter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/phone_for_otp_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/phone_for_otp_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/progress_circle_start.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/progress_circle_start.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/rectangle_321.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/rectangle_321.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/rectangle_324.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/rectangle_324.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/set_loc_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/set_loc_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/signin_google_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/signin_google_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/signup_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/signup_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/signup_email_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/signup_email_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/signup_name_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/signup_name_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/signup_pwd_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/signup_pwd_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/six_digit_otp_str.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/six_digit_otp_str.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/skip_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/skip_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/start_as.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/start_as.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/verify.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/verify.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/verify_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/verify_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/verify_rect.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/verify_rect.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/eye.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/eye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/intro_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/intro_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/intro_back_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/intro_back_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/intro_daily.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/intro_daily.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/intro_delivery.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/intro_delivery.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/intro_services.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/intro_services.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/intro_set_loc.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/intro_set_loc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/intro_welcome.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/intro_welcome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/lets_go.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/lets_go.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/login_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/login_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/login_email_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/login_email_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/login_fb_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/login_fb_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/login_main_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/login_main_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/login_name_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/login_name_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/login_pwd_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/login_pwd_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/login_singup_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/login_singup_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/otp_verification.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/otp_verification.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/path_3401.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/path_3401.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/phone_enter.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/phone_enter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/phone_for_otp_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/phone_for_otp_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/progress_circle_start.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/progress_circle_start.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/rectangle_321.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/rectangle_321.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/rectangle_324.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/rectangle_324.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/set_loc_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/set_loc_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/signin_google_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/signin_google_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/signup_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/signup_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/signup_email_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/signup_email_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/signup_name_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/signup_name_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/signup_pwd_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/signup_pwd_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/six_digit_otp_str.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/six_digit_otp_str.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/skip_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/skip_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/start_as.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/start_as.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/verify.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/verify.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/verify_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/verify_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/verify_rect.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/verify_rect.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/eye.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/eye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/intro_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/intro_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/intro_back_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/intro_back_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/intro_daily.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/intro_daily.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/intro_delivery.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/intro_delivery.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/intro_services.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/intro_services.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/intro_set_loc.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/intro_set_loc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/intro_welcome.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/intro_welcome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/lets_go.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/lets_go.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/login_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/login_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/login_email_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/login_email_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/login_fb_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/login_fb_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/login_main_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/login_main_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/login_name_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/login_name_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/login_pwd_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/login_pwd_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/login_singup_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/login_singup_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/otp_verification.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/otp_verification.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/path_3401.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/path_3401.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/phone_enter.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/phone_enter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/phone_for_otp_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/phone_for_otp_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/progress_circle_start.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/progress_circle_start.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/rectangle_321.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/rectangle_321.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/rectangle_324.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/rectangle_324.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/set_loc_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/set_loc_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/signin_google_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/signin_google_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/signup_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/signup_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/signup_email_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/signup_email_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/signup_name_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/signup_name_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/signup_pwd_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/signup_pwd_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/six_digit_otp_str.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/six_digit_otp_str.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/skip_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/skip_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/start_as.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/start_as.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/verify.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/verify.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/verify_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/verify_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/verify_rect.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/verify_rect.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/eye.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/eye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/intro_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/intro_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/intro_back_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/intro_back_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/intro_daily.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/intro_daily.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/intro_delivery.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/intro_delivery.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/intro_services.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/intro_services.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/intro_set_loc.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/intro_set_loc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/intro_welcome.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/intro_welcome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/lets_go.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/lets_go.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/login_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/login_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/login_email_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/login_email_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/login_fb_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/login_fb_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/login_main_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/login_main_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/login_name_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/login_name_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/login_pwd_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/login_pwd_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/login_singup_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/login_singup_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/otp_verification.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/otp_verification.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/otpbg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/otpbg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/path_3401.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/path_3401.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/phone_enter.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/phone_enter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/phone_for_otp_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/phone_for_otp_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/progress_circle_start.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/progress_circle_start.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/rectangle_321.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/rectangle_321.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/rectangle_324.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/rectangle_324.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/set_loc_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/set_loc_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/signin_google_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/signin_google_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/signup_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/signup_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/signup_email_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/signup_email_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/signup_name_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/signup_name_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/signup_pwd_txtbx.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/signup_pwd_txtbx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/six_digit_otp_str.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/six_digit_otp_str.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/skip_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/skip_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/start_as.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/start_as.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/verify.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/verify.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/verify_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/verify_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/verify_rect.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/verify_rect.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/test.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/aldrich.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/aldrich.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/capriola.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/capriola.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/roboto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/roboto.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/roboto_medium.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/roboto_medium.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/roboto_thin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/roboto_thin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_intro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_intro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_otp_verification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_otp_verification.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_phone_for_otp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_phone_for_otp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_signup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_signup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_start_as.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_start_as.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_test_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_test_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/swipe_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/swipe_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/logo_animation.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/logo_animation.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/font_certs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/font_certs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/preloaded_fonts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/g/wishkart01/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/g/wishkart01/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_background.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/login_background.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otp_img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/otp_img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Wishkart01" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Wishkart01" type="f1a62948:ProjectNode" />
+                <item name="Wishkart01" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Wishkart01" type="f1a62948:ProjectNode" />
+                <item name="Wishkart01" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Wishkart01" type="f1a62948:ProjectNode" />
+                <item name="Wishkart01" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/profile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="199" column="35" selection-start-line="199" selection-start-column="35" selection-end-line="199" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/Mainscreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mainscreen.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="2145">
+              <caret line="143" column="38" selection-start-line="143" selection-start-column="38" selection-end-line="143" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/otp_verification.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4485">
+              <caret line="322" column="37" selection-start-line="322" selection-start-column="37" selection-end-line="322" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/CustomerHomeFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1095">
+              <caret line="87" column="41" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>receiver</find>
+      <find>otp</find>
+      <find>et6</find>
+      <find>VISIBLE</find>
+      <find>signin</find>
+      <find>auth</find>
+      <find>number</find>
+      <find>user_map</find>
+      <find>onStart</find>
+      <find>gone</find>
+      <find>verify_btn</find>
+      <find>credential</find>
+      <find>firestoreRef</find>
+      <find>email_str</find>
+      <find>profession</find>
+      <find>setTe</find>
+      <find>setText</find>
+      <find>setocation</find>
+      <find>otp_verification</find>
+      <find>TAG</find>
+      <find>horizontal</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>otp_verification</replace>
+      <replace>otp_6</replace>
+      <replace>signup</replace>
+      <replace>customer_map</replace>
+      <replace>login</replace>
+      <replace>invisible</replace>
+      <replace>setocation</replace>
+      <replace>setlocation</replace>
+      <replace>inte</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Yogiraj Bhoomkar" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_intro.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/swipe_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_start_as.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_phone_for_otp.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_otp_verification.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_test_profile.xml" />
+        <option value="$PROJECT_DIR$/gradle.properties" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/phone_for_otp.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/CustomSwipeAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/intro.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/start_as.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/test_profile.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_signup.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/signup.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/google-services.json" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_map.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/Map.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_setlocation.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/bottom_navigation.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/ic_shopping_cart_black_24dp.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/login.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_electrician_screen.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/plumber_screen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/elect_jobs.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/electrician_screen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/elect_jobs.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/circle_shape.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/Mainscreen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/nav1.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/HomeFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/customerHomeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/navigation.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_bottom_navigation.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_kart.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_help.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/bottom_navigation.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_customer_home.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/otp_verification.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/CustomerHomeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/setlocation.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_customer_home.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/CustomerHomeFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/profile.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectId" id="1dD7FFCZTyqxRsqOUYOlaidYuMH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Wishkart01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wishkart01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wishkart01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wishkart01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wishkart01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wishkart01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wishkart01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wishkart01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wishkart01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wishkart01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Wishkart01" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Wishkart01" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="com.g.wishkart01" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shreyas_wishkart" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="e9137016:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="shreyas_wishkart" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="shreyas_wishkart" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="wishkart01" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Non-Source Files'; set:Project Non-Source Files; class com.jetbrains.cidr.lang.search.scopes.ProjectSourcesScopeProvider$NonSourceFilesScope">
+          <expand>
+            <path>
+              <item name="Wishkart01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="Wishkart01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Wishkart01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Wishkart01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Wishkart01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="Wishkart01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Wishkart01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Wishkart01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Wishkart01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Wishkart01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Wishkart01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Wishkart01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Wishkart01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="g" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Wishkart01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="g" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="wishkart01" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="oneplus-gm1901-f3d829de" />
+    <property name="DEBUGGABLE_PROCESS" value="com.g.wishkart01" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="faa3d4e0" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-10-07T06:44:11.477Z" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="device.picker.selection" value="60abe4187d2b" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1570432759830" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.g.wishkart01" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.g.wishkart01" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\AndroidStudioProjects\Wishkart01\app\src" />
+      <recent name="C:\Users\HP\AndroidStudioProjects\Wishkart01\app\src\test" />
+      <recent name="C:\Users\Vyankatesh Manwade\AndroidStudioProjects\Wishkart01\app\src\main\res\layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/wishkart_animation" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-mdpi" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.g.wishkart01" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.g.wishkart01" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\AndroidStudioProjects\Wishkart01\app" />
+      <recent name="C:\Users\HP\AndroidStudioProjects\Wishkart01\app\src" />
+      <recent name="C:\Users\HP\AndroidStudioProjects\Wishkart01" />
+      <recent name="C:\Users\Vyankatesh Manwade\AndroidStudioProjects\Wishkart01\app\src\main\res" />
+      <recent name="C:\Users\Vyankatesh Manwade\AndroidStudioProjects\Wishkart01\app\src\main\res\layout" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.g.wishkart01" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerHomeActivity" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="specific_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="com.g.wishkart01.CustomerHomeActivity" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Map" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="specific_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="com.g.wishkart01.MapLocation" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bottom_navigation" type="AndroidRunConfigurationType" factoryName="Android App" temporary="true">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="specific_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="com.g.wishkart01.bottom_navigation" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="setlocation" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="specific_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="com.g.wishkart01.setlocation" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Vyankatesh Manwade/AndroidStudioProjects/Wishkart01/app [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android App.CustomerHomeActivity" />
+        <item itemvalue="Android App.bottom_navigation" />
+        <item itemvalue="Android App.setlocation" />
+        <item itemvalue="Android App.Map" />
+        <item itemvalue="Gradle.C:/Users/Vyankatesh Manwade/AndroidStudioProjects/Wishkart01/app [signingReport]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65387302-f297-4cc6-9235-384ba12faa3e" name="Default Changelist" comment="" />
+      <created>1567145023957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567145023957</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Latest Commit with new designs.(without Login)">
+      <created>1569042288648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569042288648</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Latest Commit with new designs.(without Login)">
+      <created>1569042418642</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569042418642</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <layout>
+      <window_info id="Captures" order="0" sideWeight="0.50136983" side_tool="true" weight="0.16720517" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49863014" visible="true" weight="0.22374798" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" weight="0.32956383" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.49757674" weight="0.31751227" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.32569557" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.3207856" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32733223" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50378215" side_tool="true" weight="0.16530278" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49621785" visible="true" weight="0.14246576" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" weight="0.32876712" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32876712" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.3290469" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.24432677" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Assistant" order="6" weight="0.21104388" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Captures" order="0" sideWeight="0.50136983" side_tool="true" weight="0.16720517" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49863014" visible="true" weight="0.22390318" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" weight="0.32956383" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.49757674" weight="0.31751227" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.32569557" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.3207856" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32733223" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50378215" side_tool="true" weight="0.16530278" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49621785" weight="0.16530278" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" weight="0.32876712" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32876712" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.3290469" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.24432677" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Assistant" order="6" weight="0.21104388" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Latest Commit with new designs." />
+    <MESSAGE value="Latest Commit with new designs.(without Login)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Latest Commit with new designs.(without Login)" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="310" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1591947716888">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="310" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1591947716888" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/signup.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/phone_for_otp.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/phone_for_otp.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MapLocation.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MapLocation.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MapLocation.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MapLocation.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MapLocation.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MapLocation.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MapLocation.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MapLocation.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MapLocation.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MapLocation.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MapLocation.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MapLocation.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MapLocation.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MapLocation.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MapLocation.java</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MapLocation.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/otp_verification.java</url>
+          <line>318</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/otp_verification.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/bottom_navigation.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/test_profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_setlocation.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/signup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="100" column="33" selection-start-line="99" selection-start-column="15" selection-end-line="100" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/plumber_screen.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/plumber_screen.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/plumber_screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_electrician_screen.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4250">
+          <caret line="285" column="79" selection-start-line="285" selection-start-column="79" selection-end-line="285" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/electrician_screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#1202#1462#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#1502#1762#0" expanded="true" />
+            <element signature="e#1761#1762#0" expanded="true" />
+            <element signature="e#1802#2062#0" expanded="true" />
+            <element signature="e#2061#2062#0" expanded="true" />
+            <element signature="e#2100#2360#0" expanded="true" />
+            <element signature="e#2359#2360#0" expanded="true" />
+            <element signature="e#2394#2654#0" expanded="true" />
+            <element signature="e#2653#2654#0" expanded="true" />
+            <element signature="e#2689#2949#0" expanded="true" />
+            <element signature="e#2948#2949#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/elect_jobs.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="431" column="55" lean-forward="true" selection-start-line="431" selection-start-column="55" selection-end-line="431" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_test_profile.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/progress_circle_start1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/progress_circle_start.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_intro.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="66" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/circle_shape.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/phone_for_otp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/start_as.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_start_as.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_otp_verification.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="3258">
+          <caret line="181" column="8" selection-start-line="181" selection-start-column="8" selection-end-line="181" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/HomeFragment.java" />
+    <entry file="file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/CustomSwipeAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="353" column="21" selection-start-line="8" selection-start-column="4" selection-end-line="353" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/navigation.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/HelpFragment.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/KartFragment.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_kart.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_help.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_bottom_navigation.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google-services.json" />
+    <entry file="file://$PROJECT_DIR$/app/src/google-services.json" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/elect_jobs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/google-services.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/bottom_navigation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="82" column="13" selection-start-line="68" selection-start-column="10" selection-end-line="82" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/setlocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="127" column="72" selection-start-line="127" selection-start-column="72" selection-end-line="127" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_customer_home.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/CustomerHomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="107" column="25" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_customer_home.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="5922">
+          <caret line="329" column="41" selection-start-line="329" selection-start-column="41" selection-end-line="329" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="199" column="35" selection-start-line="199" selection-start-column="35" selection-end-line="199" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/Mainscreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mainscreen.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="2145">
+          <caret line="143" column="38" selection-start-line="143" selection-start-column="38" selection-end-line="143" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/otp_verification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4485">
+          <caret line="322" column="37" selection-start-line="322" selection-start-column="37" selection-end-line="322" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/g/wishkart01/CustomerHomeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="87" column="41" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
